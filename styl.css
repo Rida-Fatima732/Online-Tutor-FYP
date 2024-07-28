@@ -1,0 +1,190 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+
+
+   .navbar-brand h3 {
+            font-size: 1.75rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .navbar-brand h3 span {
+            color: #28a745; 
+        }
+        .card-title {
+            font-size: 1.5rem;
+        }
+        .footer-content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer-content a:hover {
+            color: #0056b3;
+        }
+
+  @keyframes stretch {
+        0%, 100% {
+            width: 0;
+        }
+        50% {
+            width: 100%;
+        }
+    }
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.animate-title {
+    animation: fadeInDown 2s;
+}
+
+.animate-btn {
+    animation: pulse 2s infinite;
+}
+
+.animate-fade {
+    animation: fadeIn 3s;
+}
+
+.animate-card {
+    animation: bounceIn 2s;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+ #contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  
+  #contact h5 {
+    color: dodgerblue;
+  }
+  
+  #contact a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-control {
+    border-radius: 0;
+    border: 1px solid dodgerblue;
+  }
+  
+  .btn-primary {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: darkblue;
+    transform: translateY(-3px);
+  }
+  
+  #c-icons i {
+    color: dodgerblue;
+    transition: transform 0.3s;
+  }
+  
+  #c-icons i:hover {
+    transform: rotate(360deg);
+  }
